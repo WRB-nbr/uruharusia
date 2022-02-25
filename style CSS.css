@@ -1,0 +1,233 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #9ef0e2;
+    border-top: 8px #21d4b6 solid;
+}
+
+.header__inner{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    width: 242px;
+    margin-top: 20px;
+}
+
+.header__logo-img{
+    width: 150px;
+    height: auto;
+}
+
+.gnav{
+    width: 260px;
+    margin: 38px 35px 0 0;
+    /* 上　右　下　左 */
+}
+
+.gnav__menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.gnav__link{
+    font-size: 16px;
+    color: #545454;
+    /* テキストの下線を消す */
+    text-decoration: none;
+    font-weight: bold;
+    /* hoverした時のアニメーションスピード */
+    transition: 0.5s;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+.gnav__link:hover{
+    /* ホバーした時の色 */
+    color: #008f99;
+}
+
+.ASMR{
+    text-align: center;
+    list-style: none;
+}
+
+.tytle{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #545454;
+    font-weight: bold;
+    display: flex;
+    margin-top: 2em;
+}
+
+.video{
+    text-align: center;
+    margin-top: 3em;
+}
+
+.overview{
+    width: 1200px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+.fotter{
+    height: 150px;
+    text-align: center;
+    padding: 30px;
+    background-color: #084d52;
+}
+
+#page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #14dfe6;
+    opacity: 0.6;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+  }
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f106';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+  .main-txt2{
+      width: 850px;
+      height: 380px;
+      color: #454545;
+      background-color: #d4f1ed;
+      text-align: center;
+      margin: 3em auto;
+  }
+
+  .Udiv{
+      width: 850px;
+      margin: 2em auto;
+  }
+
+  .div-equal-box{
+      width: 850px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0 auto;
+  }
+  .div-equal-box div{
+    text-align: center;
+    font-size: 12px; 
+    background-color: #9ef0e2;
+    border-radius: 10px;
+  }
+
+  .div-link{
+    font-size: 16px;
+    text-decoration: none;
+    color: #454545;
+    font-weight: bold;
+    /* hoverした時のアニメーションスピード */
+    transition: 0.5s;
+    font-family: sans-serif;
+    justify-content: space-between;
+  }
+
+
+  .div-link:hover{
+      color: #65e9d3;
+  }
+
+  .contents2{
+      width: 190px;
+      height: 70px;
+      background-color: #d4f1ed;
+      list-style: none;
+      display: inline-block;
+      margin: 2em auto;
+  }
+
+  .main-second{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.main-second__heading{
+    font-size: 40px;
+    color: #9ef0e2;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.main-second__gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-second__gallery-item{
+    width: 320px;
+    height: 180px;
+    margin-bottom: 110px;
+    list-style: none;
+}
+
+.main-second__gallery-img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-second__gallery-caption{
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #454545;
+}
+
+.main-second__gallery-caption:hover{
+    color: #838383;
+}
+
+
+/*MUSIC*/
+
+.main-second__MUSIC{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 740px;
+    margin: 0 auto;
+}
+
+.main-second__MUSIC-item{
+    width: 320px;
+    height: 180px;
+    margin-bottom: 110px;
+    list-style: none;
+}
